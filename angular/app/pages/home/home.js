@@ -61,4 +61,9 @@ angular.module('bowlApp')
     //     return name + "  -  " + d.confidence_points
     //   });
     });
+
+    $scope.clickHere = function () {
+      alert("Hello Jee Whan");
+    };
+
   });
