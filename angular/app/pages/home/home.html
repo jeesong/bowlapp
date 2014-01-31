@@ -20,6 +20,10 @@
 </div>
 <div class="row-fluid">
   <div class="span12 hero-unit">
-    Jee is fucking around with this <a ng-click="clickHere()">shit</a>.
+    Jee is fucking around with this <a ng-click="clickHere()">shit</a>.<hr>
+    Name: <input type="text" ng-model="yourName">
+    <h1>What up {{ yourName }}!</h1><hr>
+    <button ng-click="count = count + 1" ng-init="count=0">Add</button>
+    Count: {{count}}
   </div>
 </div>

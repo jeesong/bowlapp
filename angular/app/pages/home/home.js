@@ -63,7 +63,7 @@ angular.module('bowlApp')
     });
 
     $scope.clickHere = function () {
-      alert("Hello Jee Whan");
+      alert("Testing 123!")
     };
 
   });

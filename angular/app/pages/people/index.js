@@ -12,4 +12,8 @@ angular.module("bowlApp")
       $scope.col = col_name;
       $scope.reverse = !$scope.reverse;
     }
+
+    $scope.sayHi = function() {
+      alert("HELLO WORK")
+    }
   });
